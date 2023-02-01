@@ -38,8 +38,7 @@ a:hover {
 }
 
 /* UI Event Classes */
-
-/* Jump animation on the interaction link */
+/* Animatie 1 */
 a:nth-of-type(12) {
   position: relative;
   background: var(--highlight-secondary);
@@ -78,4 +77,203 @@ a:nth-of-type(12) {
   }
 }
 
-/* Jouw animaties */
+/* Animatie 1 */
+
+a:nth-of-type(1) {
+  position: relative;
+  
+}
+.rotate {
+  animation-name: rotate;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  background: rgb(221, 255, 0);
+}
+
+@keyframes rotate {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  50% {
+    transform: scale(2, 2) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+/* Animatie 2 */
+
+a:nth-of-type(2) {
+  position: relative;
+}
+
+.orange {
+  background-color: orange;
+}
+
+/* Animatie 3 */
+
+a:nth-of-type(3) {
+  position: relative;
+}
+
+.violet {
+  background-color: violet;
+}
+
+/* Animatie 4 */
+
+a:nth-of-type(4) {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes spinning {
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.spinning {
+  background-color: rgb(30, 255, 0);
+  animation: rotation 2s infinite linear;
+  animation-name: spinning;
+  animation-iteration-count: 1;
+}
+
+/* Animatie 5 */
+
+a:nth-of-type(5) {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.shaking {
+  background-color: rgb(255, 0, 225);
+  animation: tilt-shaking 0.3s infinite;
+  animation-name: shaking;
+}
+
+/* Animatie 6 */
+
+a:nth-of-type(6) {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes vertical-shaking {
+  0% { transform: translateY(0) }
+  25% { transform: translateY(5px) }
+  50% { transform: translateY(-5px) }
+  75% { transform: translateY(5px) }
+  100% { transform: translateY(0) }
+}
+
+ .vertical-shaking {
+  background-color: rgb(0, 255, 200);
+  animation: vertical-shaking 1.5s infinite;
+  animation-name: vertical-shaking;
+ }
+
+ /* Animatie 7 */
+
+ a:nth-of-type(7) {
+  position: relative;
+  display: inline-block;
+}
+
+ @keyframes horizontal {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+ }
+
+ .horizontal {
+  background-color: rgb(188, 179, 255);
+  animation: horizontal-shaking 1.5s infinite;
+  animation-name: horizontal;
+ }
+
+ /* Animatie 8 */
+
+ a:nth-of-type(8) {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes disco {
+  0%   {background-color: rgb(255, 101, 101);}
+  25%  {background-color: rgb(247, 0, 255);}
+  50%  {background-color: rgb(0, 89, 255);}
+  100% {background-color: rgb(0, 255, 17);}
+}
+
+.disco {
+  animation: disco 1.5s infinite;
+  animation-name: disco;
+ }
+
+ /* Animatie 9 */
+
+ a:nth-of-type(9) {
+  position: relative;
+  display: inline-block;
+}
+
+ @keyframes square {
+  0%   {background-color:rgb(0, 13, 255); left:0px; top:0px;}
+  25%  {background-color:rgb(0, 255, 17); left:200px; top:0px;}
+  50%  {background-color:rgb(187, 255, 0); left:200px; top:200px;}
+  75%  {background-color:rgb(229, 103, 0); left:0px; top:200px;}
+  100% {background-color:rgb(89, 0, 255); left:0px; top:0px;}
+}
+
+.square {
+  animation-name: square;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+ }
+
+
+/* Animatie 10 */
+a:nth-of-type(10) {
+  position: relative;
+  background: var(--primary);
+  color: var(--secondary);
+  border-color: var(--highlight-secondary);
+}
+
+.flash {
+  animation-name: flash;
+  animation-duration: 0.25s;
+  animation-iteration-count: 5;
+}
+
+@keyframes flash {
+  0% {
+  opacity: 1;
+  }
+  50% {
+  opacity: 0;
+  }
+  100% {
+  opacity: 1;
+  }
+}
+/* Animatie 10 */
+
