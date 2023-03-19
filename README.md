@@ -1,21 +1,24 @@
-# UI Events
+# ✨ FIX-THE-FLOW-UI-EVENTS ✨
 
 <img width="1152" alt="Schermafbeelding 2023-02-01 om 23 29 47" src="https://user-images.githubusercontent.com/112856019/216178464-5378cc17-428e-4a97-a66b-4fcee28f767b.png">
 
-### Beschrijving
+## Beschrijving 📝
 
-Ik heb 10 ui events interacties gemaakt met behulp van CSS en JavaScript.
+Ik heb op tien buttons animaties toegepast met behulp van CSS en JavaScript.
 
-### Kenmerken
+>Bekijk hier de tien buttons: https://zenitba.github.io/fix-the-flow-ui-events/#fix
 
-CSS:
+
+
+## Experimenten 🧪
+
+**CSS 👩‍🎨:**
 
 * animation-name
 * animation-duration
 * @keyframes
 
-
-JavaScript:
+**JavaScript 👩🏿‍💻:**
 
 * document.querySelector
 * .addEventListener
